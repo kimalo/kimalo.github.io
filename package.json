@@ -1,0 +1,23 @@
+{
+  "name": "kimalo.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "npm-watch": "^0.3.0",
+    "pug": "^2.0.0-rc.4",
+    "pug-cli": "^1.0.0-alpha6"
+  },
+  "devDependencies": {},
+  "watch": {
+    "pugCompile": {
+      "patterns": ["src"],
+      "extensions": "pug"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pugCompile": "./compile.sh",
+    "watch": "npm-watch pugCompile"
+  }
+}
