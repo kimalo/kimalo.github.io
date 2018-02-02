@@ -1,0 +1,15 @@
+presentation
+  head
+    branding for browser title bar
+  body
+    toolbar
+      brand
+      boiler plate formality
+        li guide
+        li documentation
+        li contact
+        li careers
+    brand
+    sales pitch
+    customer actionable
+    copyright
